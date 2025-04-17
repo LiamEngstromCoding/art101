@@ -27,6 +27,12 @@ h1 {
   background-color: #84B59F;
 }
 
+/*trying to edit size of portrait in index*/
+#liam-photo 
+{
+  width: 500px;
+}
+
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
