@@ -8,13 +8,57 @@
     background-color: #DDD8C4;
   }
 
- .screenshot-1 
+ .filestructure 
  {
     margin: 10px;
     max-width: 1000px;
   } 
 
-  #screenshot-1 
+  #filestructure 
+{
+  width: 1000px;
+}
+
+.homepage-code
+ {
+    margin: 10px;
+    max-width: 1000px;
+  } 
+
+  #homepage-code
+{
+  width: 1000px;
+}
+
+.homepage-webpage
+ {
+    margin: 10px;
+    max-width: 1000px;
+  } 
+
+  #homepage-webpage
+{
+  width: 1000px;
+}
+
+.lab3-code
+ {
+    margin: 10px;
+    max-width: 1000px;
+  } 
+
+  #lab3-code
+{
+  width: 1000px;
+}
+
+.lab3-webpage
+ {
+    margin: 10px;
+    max-width: 1000px;
+  } 
+
+  #lab3-webpage
 {
   width: 1000px;
 }
