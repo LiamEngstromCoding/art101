@@ -1,5 +1,24 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
+/* Made new thing so that it wouldn't mess with the format of the rest of the lab page*/
+#hello-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 10px #888;
+
+  background-color: #DDD8C4;
+  h1 
+  {
+    font-size: 40px;
+    color: red;
+  }
+}
+
+.indent
+{
+  text-indent: 30px;
+}
+
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
     padding: 10px;
