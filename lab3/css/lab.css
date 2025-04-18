@@ -11,7 +11,10 @@
  .screenshot-1 
  {
     margin: 10px;
-    max-width: 800px;
+    max-width: 500px;
   } 
 
-  
+  #screenshot-1 
+{
+  width: 500px;
+}
