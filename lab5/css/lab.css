@@ -7,3 +7,15 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  /*Cannot figure out how to make it smaller :( it worked on the other labs*/
+  .hondaCivic
+ {
+    margin: 10px;
+    max-width: 50%;
+  } 
+
+  #hondaCivic
+{
+  width: 500px;
+}

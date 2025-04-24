@@ -1,21 +1,22 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Defining and Outputting JS variables
+// Author: Liam Engstrom
+// Date: April 22nd, 2025
 
-// Constants
+// Define variables
+var make = "Honda";
+var model = "Civic";
+var color = "grey";
+var year = 2024;
+var ownIt = true;
+var age = 2025 - year;
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+// Output for variables
+document.writeln("Make: " + make);
+document.writeln("<br>Model: " + model);
+document.writeln("<br>Color: " + color);
+document.writeln("<br>Year: " + year);
+document.writeln("<br>Age: " + age + " year old.");
+if(ownIt)
+{
+  document.writeln("<br>I own this car.");
 }
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
