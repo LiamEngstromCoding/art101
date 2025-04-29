@@ -30,3 +30,24 @@ if(ownIt)
 {
     console.log("I do own this car");
 }*/
+
+let myTransport = [
+    "Bus", 
+    "Car", 
+    "Uber",
+    "Airplane",
+    "Walking"
+]
+
+var myMainRide = {
+    make: "Honda",
+    model: "Civic",
+    color: "Grey",
+    year: 2024,
+    age: function() {return 2025 - this.year;}
+}
+
+
+console.log("My Transportation: " + myTransport);
+console.log("My Ride: " + myMainRide.make + myMainRide.model
+     + myMainRide.color + myMainRide.year + myMainRide.age);
