@@ -51,3 +51,17 @@ var myMainRide = {
 console.log("My Transportation: " + myTransport);
 console.log("My Ride: " + myMainRide.make + myMainRide.model
      + myMainRide.color + myMainRide.year + myMainRide.age);
+
+
+//in-class work 4/28/2025
+function reverseString(text)
+{
+  
+  return text.split('').reverse().join('');
+}
+
+let phrase = "Crazy Eights";
+
+let reversedPhrase = reverseString(phrase);
+
+console.log(reversedPhrase);

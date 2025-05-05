@@ -11,6 +11,7 @@ myTransport = [
   "Airplane",
   "Walking"
 ]
+var index = 0;
 
 //Create an object for myMainRide
 myMainRide = {
@@ -25,9 +26,18 @@ myMainRide = {
   }
 }
 
-//Output 
-document.writeln("Kinds of Transportation I Use: ", myTransport, "</br>");
-document.writeln("</br>My Main Ride: </br>", "Make: " + myMainRide.make + "</br>", 
+//Output
+document.writeln("Kinds of Transportation I Use: "); 
+while(index < 5) //cycles through the myTransport array and prints out every element
+{
+  document.writeln(myTransport[index]);
+  index++;
+  if(index < 5)
+    {
+      document.writeln(", ");  //check with professor or TA if there is a more optimized way to go about this
+    } 
+}
+document.writeln("</br></br>My Main Ride: </br>", "Make: " + myMainRide.make + "</br>", 
 "Model: " + myMainRide.model + "</br>", "Color: " + myMainRide.color + "</br>",
 "Year: " + myMainRide.year + "</br>", "Age: " + myMainRide.age() + " years" + "</br>");
 
