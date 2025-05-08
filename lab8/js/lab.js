@@ -1,21 +1,38 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Learn how to use anon functions and callbacks, 
+//            and how to edit parts of the program with said functions
+// Author: Liam Engstrom
+// Date: May 8th, 2025
 
-// Constants
+
+//Variables/Constants
+const numArray = [
+  1, 2, 3, 4, 5
+];
 
 // Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+// this function takes a number, squares it, then returns the results.
+function numSquared(num) {
+  //multiplies the given number (num) by itself
+  var results = num * num;
+  
+  //returns the results
+  return results;
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+//applies the function squaredNum to the elements of numArray and then prints the results
+let squaredArray = numArray.map(numSquared).join(", ");
+console.log("Squared Array: " + squaredArray);
 
-// let's get this party started
-main();
+//applies the anon function to the elements of numArray and then prints the results
+let subtractArray = numArray.map(function(x){
+  //subtracts the given number by 1
+  var results = x - 1;
+
+  //returns the results
+  return results;
+}).join(", ");
+console.log("Subtracted array: " + subtractArray);
+
+$("#output").html("Squared Array: " + squaredArray + "</br>Subtracted Array: " + subtractArray);
+
+
