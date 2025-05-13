@@ -8,9 +8,38 @@
     background-color: #DDD8C4;
   }
 
+@keyframes disco {
+  0% {border-color: red}
+  15% {border-color: orange}
+  35% {border-color: yellow}
+  50% {border-color: greenyellow}
+  65% {border-color: cyan}
+  80% {border-color: purple}
+  95% {border-color: magenta}
+  100% {border-color: red}
+}
+
 .special {
   background-color: mediumaquamarine;
-  border: double 40px navy;
+  border: double 10px;
   color: white;
   font-weight: bold;
+  animation-name: disco;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#button-challenge {
+  background-color: gold;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#button-problems {
+  background-color: lightsalmon;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#button-results {
+  background-color: lightcyan;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }

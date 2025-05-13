@@ -2,8 +2,12 @@
 // Author: Liam Engstrom
 // Date: May 12th, 2025
 
+//functions
+
+
 //Button implementation for challenge section
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
+
 //click listener for challenge button
 $("#button-challenge").click(function(){
   $("#challenge").toggleClass("special");
@@ -15,11 +19,12 @@ $("#problems").append("<button id='button-problems'>Make Special</button>");
 //click listener for Problems section
 $("#button-problems").click(function(){
   $("#problems").toggleClass("special");
-  //$("#problems").toggleClass("minor-section");
+   
 });
 
 //Button implementation for Results section
 $("#results").append("<button id='button-results'>Make Special</button>");
+
 //click listener for results section
 $("#button-results").click(function(){
   $("#results").toggleClass("special");
