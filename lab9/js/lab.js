@@ -1,21 +1,27 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Learn how to use jQuery to interact and manipulate our webpage. (how to use buttons)
+// Author: Liam Engstrom
+// Date: May 12th, 2025
 
-// Constants
+//Button implementation for challenge section
+$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+//click listener for challenge button
+$("#button-challenge").click(function(){
+  $("#challenge").toggleClass("special");
+});
 
-// Functions
+//Button implementation for Problems section
+$("#problems").append("<button id='button-problems'>Make Special</button>");
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+//click listener for Problems section
+$("#button-problems").click(function(){
+  $("#problems").toggleClass("special");
+  //$("#problems").toggleClass("minor-section");
+});
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+//Button implementation for Results section
+$("#results").append("<button id='button-results'>Make Special</button>");
+//click listener for results section
+$("#button-results").click(function(){
+  $("#results").toggleClass("special");
+});
 
-// let's get this party started
-main();
