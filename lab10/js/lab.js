@@ -69,10 +69,10 @@ if(clicked = true){
 
 
 //testing text
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+//$("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
 //click listener for challenge button
-$("#button-challenge").click(function(){
+/*$("#button-challenge").click(function(){
   $("#challenge").toggleClass("special-text");
-});
+});*/
 
