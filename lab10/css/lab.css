@@ -1,0 +1,47 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+.special-text {
+    animation-name: disco;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco {
+  0% {color: red}
+  15% {color: orange}
+  35% {color: yellow}
+  50% {color: greenyellow}
+  65% {color: cyan}
+  80% {color: purple}
+  95% {color: magenta}
+  100% {color: red}
+}
+
+.user-text {
+  border-radius: 25px;
+  background: cyan;
+  /*margin-right: 50px;
+  margin-left: 50px;*/
+  max-width: 300px;
+  text-align: left;
+  padding: 10px;
+  align-content: right;
+}
+
+.response-text {
+  background: lightgray;
+  border-radius: 25px;
+  /*margin-right: 50px;
+  margin-left: 50px;*/
+  max-width: 500px;
+  padding: 10px;
+  text-align: left;
+}

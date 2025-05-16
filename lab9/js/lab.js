@@ -2,8 +2,6 @@
 // Author: Liam Engstrom
 // Date: May 12th, 2025
 
-//functions
-
 
 //Button implementation for challenge section
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");

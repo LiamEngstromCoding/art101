@@ -65,3 +65,52 @@ let phrase = "Crazy Eights";
 let reversedPhrase = reverseString(phrase);
 
 console.log(reversedPhrase);
+
+
+//lab 10??
+
+//html
+//<div id = "convo">our convo</div>
+
+//<input id="userinput" type = text></input>
+
+//<button id = "action"> say something </button>
+
+//javascript
+
+$("#action").click(
+    function(){
+        //what will happen when the button is clicked
+        console.log("button is clicked");
+        //find the box
+
+        //usertext = $("userinput").val("asdf");
+
+        console.log($("#userinput").val())
+        //and its contents
+        
+
+        //copy the content
+        let usertext = $("#userinput").val()
+
+        //copy where? div convo
+        $("#convo").append(usertext+ "</br>");
+    }
+)
+
+//In class
+
+//html
+//<input id="inputField" type = "text" placeholder ="Your name">
+//button id ="inputButton">Submit</button>
+//<div id = "output"></div>
+
+$("#inputButton").click(function(){
+
+    //get user input from form field with .val();
+    let name = $("#inputField").val();
+
+    //now select your output div and replace the html() with name
+    $("#output").html(name);
+
+});
