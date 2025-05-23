@@ -114,3 +114,110 @@ $("#inputButton").click(function(){
     $("#output").html(name);
 
 });
+
+//lab 12?
+
+//missing html
+//<jquery link>
+//<h1>Password: elseif</h1>
+//<p><input type=text id=factor1>
+//
+//<p><button id=button>me button</button>
+
+
+//<div id=output style=
+
+$("#button").click(function{
+    
+    let score = 0;
+
+    let factor1=$("#factor1").val();
+    let factor2=$("#factor2").val();
+    let factor3=$("#factor3").val();
+    
+    if(factor1=="yes"){
+        score=score+1;
+    }
+    else if(factor1=="elephant"){
+        score=score+3;
+    }
+    
+    if(factor2=="yes"){
+        score=score+1;
+    }
+    
+    if(factor3=="yes"){
+        score=score+1;
+    }
+    
+    if(score<3){
+        $("#output").append("you are fired!");
+    }
+    else {
+        $("#output").append("you are good for now!");
+    }
+    
+    $("#output").append(score);
+});
+
+//more after section
+
+function sortNameInto(num){
+    let remainder=num%4;
+    if (remainder==0){
+        "You are a squirrel!"};
+    if (remainder ==1){
+        answer= your are an earth squirrel"}};
+    if(remainder==2){
+        answer = "your are a mole"
+    };
+    if(remainder ==3){
+
+    return remainder;}
+};
+
+$("#button").click(function(){
+    let name=$("#factor1").val();
+    console.log(name);
+    let nnum=name.length;
+    console.log(num);
+
+    if(num>0){
+        ($"output").html("too much");
+        
+    }
+    else if(num>0){
+        let result -sortNameInto(num);
+        $("#output").html(result);
+    }
+    else{
+        $("output").html("#please say something")
+    }
+    }
+
+    let result=sortNameInto(num);
+    console.log(answer);
+})
+
+
+//lab 12 or 13?
+console.log("print all numbers: ");
+for(i = 0; i <= 100; i++)
+  {
+    if(i % 3 == 0 && i % 5 == 0)
+      {
+        console.log("FizzBuzz!");
+      }
+    else if(i % 3 == 0)
+      {
+        console .log("Fizz!");
+      }
+    else if(i % 5 == 0)
+      {
+        console.log("Buzz!");
+      }
+    else{
+      console.log(i);
+    }
+    
+  }

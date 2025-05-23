@@ -1,21 +1,46 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - To learn how to use conditionals
+// Author: Liam Engstrom
+// Date: May 22nd, 2025
 
-// Constants
 
 // Functions
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+// Function that takes a name, and returns a starter pokemon. 
+function sortingHat(name) {
+  //counts length of name
+  let nameLength = name.length;
+  console.log(nameLength);
+  //sets the variable to a number between 0 and 3
+  let mod = nameLength % 4;
+
+  //assigns the user a starter pokemon based on the length of their name
+  if(mod == 0)
+  {
+    starter = "Charmander";
+  }
+  else if(mod == 1)
+  {
+    starter = "Squirtle";
+  }
+  else if(mod == 2)
+  {
+    starter = "Bulbasaur";
+  }
+  else if(mod == 3)
+  {
+    starter = "Pikachu";
+  }
+  else
+  {
+    //let's me know there's an error with the conditional
+    starter = "error";
+  }
+
+  return starter;
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+$("#button").click(function(){
+  let name = $("#input").val();
+  let starter = sortingHat(name);
+  $("#output").html("</div>Your starter is... </div>" + starter); // hat is a function call, there's no return
+})

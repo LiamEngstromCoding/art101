@@ -41,28 +41,28 @@ $("#make-convo").click(function(){
   //console.log("button is clicked");
 
   //sets the format of the section after the first msg is clicked
-  //clicked = true;
+  clicked = true;
 
   //sends a message to the console with the value the user enters
-  //console.log($("#userinput").val())
+  console.log($("#userinput").val())
   
 
   //user sets input
   let userInput = $("#userinput").val()
 
   //sends the user input to the webpage (user-text is referring to the formatting segment for the user portion)
-  //$("#user-text").append("</br>" + userInput+ "</br>");
+  $("#user-text").append("</br>" + userInput+ "</br>");
   $("#output").append("</br>" + "User input: " + userInput+ "</br>");
 
   //random response, sends to webpage after user input is entered and button clicked
   let newText = generateRandomText();
-  //$("#response-text").append('<div class="text"><p>' + newText + '</p></div>');
+  $("#response-text").append('<div class="text"><p>' + newText + '</p></div>');
   $("#output").append('<div class="text"><p>' + "Response: " + newText + '</p></div>');
   
 });
 
-
-if(clicked = true){
+//issue is that it only happens once when you load the page
+if(clicked == true){
   $("#response-text").toggleClass("response-text");
   $("#user-text").toggleClass("user-text");
 }

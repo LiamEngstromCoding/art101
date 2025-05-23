@@ -14,6 +14,8 @@ function sortString(inputString) {
 $("#submit").click(function(){
   //get value of input field
   const userName = $("#user-name").val();
+
+  //Checks 
   //calls sort function to sort string 
   userNameSorted = sortString(userName);
   //switches submit button for sorted username after input is received. 
