@@ -24,12 +24,12 @@ function generateRandomText(){
 
 //Gets user input
 
-function getUserInput(){
+/*function getUserInput(){
   let userinput = $("#userinput").val();
   document.writeln(userinput + "</br>");
-  $("#convo").append(userInput + "</br>");
+  $("#make-convo").append(userInput + "</br>");
   //return userinput;
-}
+}*/
 
 //NOTE: MAKE IT SO IT MAKES A NEW SECTION EVERY CLICK
 
@@ -46,18 +46,15 @@ $("#make-convo").click(function(){
   //sends a message to the console with the value the user enters
   console.log($("#userinput").val())
   
-
   //user sets input
   let userInput = $("#userinput").val()
 
   //sends the user input to the webpage (user-text is referring to the formatting segment for the user portion)
-  $("#user-text").append("</br>" + userInput+ "</br>");
-  $("#output").append("</br>" + "User input: " + userInput+ "</br>");
+  $("#user-text").append("</br>" + "User input: " + userInput+ "</br>");
 
   //random response, sends to webpage after user input is entered and button clicked
   let newText = generateRandomText();
-  $("#response-text").append('<div class="text"><p>' + newText + '</p></div>');
-  $("#output").append('<div class="text"><p>' + "Response: " + newText + '</p></div>');
+  $("#response-text").append('<div class="text"><p>' + "Response: " + newText + '</p></div>');
   
 });
 
