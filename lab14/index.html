@@ -33,13 +33,65 @@
 			<div class="minor-section">
 					<h2>Problems</h2>
 					<p>There wasn't a lot of things for me to debug, since I usually debugged my assignments 
-						before submitting them. </p>
+						before submitting them. Most of them ended up being punctuation errors or typos. It did
+						take me a very long time to figure out what was wrong with lab 12, mainly because it's
+						difficult for me to properly picture what the code does when its in the $#output format.
+						I also tried a couple different ways of printing it out to try and solve the issue, but
+						when I figured out is was an error with the css tag, I just went back to the original
+						format. It was shorter and cleaner. It also took a super long time to copy and link all
+						of the images over to the html file. Not much of a problem to be solved, just a problem
+						I had when completing the assignment.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
 					<h3>Debugging</h3>
-					<div id="output"></div>
+					<h4>Lab 6</h4>
+					<p>Went back to check on lab6, and found that an issue had popped up sometime between the 
+						original submission and today. The photo wasn’t working and I also remember having 
+						issues changing the size of the picture during the initial attempt at the lab. I found 
+						that the picture in the image folder wasn’t named the same as the source id. As in, it 
+						was just a random string of letters and numbers. For the image size, apparently I 
+						didn’t include the image id name and style changes in the css file? Maybe I got 
+						confused with the lab5 css file when I was first doing it. It also seems like I put
+						“hondaCivic.jpg” for the img id= in the index.html, which might have referenced the 
+						actual image instead of the set parameters in the css file. </p>
+					<p>CSS File</p>
+					<img id="Lab-14-L6-CSS" src="img/Lab-14-L6-CSS.png">
+					<p>HTML File</p>
+					<img id="Lab-14-L6-html" src="img/Lab-14-L6-html.png">
+					<p>Output</p>
+					<img id="Lab-14-L6-output" src="img/Lab-14-L6-output.png">
+					<div></div>
+
+					<h4>Lab 10</h4>
+					<p>Lab 10 had a strange bug that I almost missed where it was printing the output twice. 
+						Not sure if this was part of the original lab I did, or an error caused by some 
+						experimentation I did after the submission date. Apparently, I had some left over 
+						code from when I hastily submitted the lab on its due date. I was trying to figure 
+						out how to format the webpage like an iphone texting app GUI. I didn’t want my partner 
+						to be late, so I quickly added in the basic commands, forgetting to remove/add certain 
+						commands/functions. How I fixed the lab in this case, was by removing two extra lines 
+						of $#output, and replace it with the #response-text and the #user-text.</p>
+					<p>Javascript File</p>
+					<img id="Lab-14-L10-JS" src="img/Lab-14-L10-JS.png">
+					<p>Output</p>
+					<img id="Lab-14-L10-output" src="img/Lab-14-L10-output.png">
+					<div></div>
+
+					<h4>Lab 12</h4>
+					<p>The one issue that was frustrating me was that I wasn’t able to change the text style 
+						in the $(”#output”) section. I figured out that the reason it wasn’t changing was 
+						because I had the css file formatted as .(image name) instead of #(image name). This 
+						meant that it wasn’t properly calling the style selector in the js file. I also forgot 
+						to add the semi-quotation marks to the call. It took me a lot longer than it should 
+						have to figure out why it wasn’t working.</p>
+					<p>CSS File</p>
+					<img id="Lab-14-L12-CSS" src="img/Lab-14-L12-CSS.png">
+					<p>Javascript File</p>
+					<img id="Lab-14-L12-JS" src="img/Lab-14-L12-JS.png">
+					<p>Output</p>
+					<img id="Lab-14-L12-output" src="img/Lab-14-L12-output.png">
 			</div>
 		</section>
 		<nav id="links">

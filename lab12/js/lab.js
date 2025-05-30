@@ -43,8 +43,8 @@ function sortingHat(name) {
 $("#button").click(function(){
   let name = $("#input").val();
   let starter = sortingHat(name);
-  $("#output").html("</div>Your starter is... </div>" + "<p id=#" + starter
-    + " type = text>" + starter + "</p>" + "<img id='" + starter + "' src='img/" + starter + ".png'/>"); // starter is a function call, there's no return
+  $("#output").html("</div>Your starter is... </div>" + "<div id='" + starter
+    + "' type = text>" + starter + "</div>" + "<img id='" + starter + "' src='img/" + starter + ".png'/>"); // starter is a function call, there's no return
   //trying to print out the image of the pokemon
 
 })

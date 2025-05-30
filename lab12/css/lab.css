@@ -8,18 +8,18 @@
     background-color: #DDD8C4;
   }
 
-.Pikachu {
+#Pikachu {
   color: gold;
 }
 
-.Charmander {
+#Charmander {
   color: darkorange;
 }
 
-.Squirtle {
+#Squirtle {
   color: cornflowerblue;
 }
 
-.Bulbasaur {
+#Bulbasaur {
   color: lightseagreen;
 }
