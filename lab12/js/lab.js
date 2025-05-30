@@ -46,5 +46,5 @@ $("#button").click(function(){
   $("#output").html("</div>Your starter is... </div>" + "<div id=#" + starter
     + " type = text>" + starter + "</div>" + "<img id='" + starter + "' src='img/" + starter + ".png'/>"); // starter is a function call, there's no return
   //trying to print out the image of the pokemon
-  //$("#output").html("<img id='" + starter + "' src='img/" + starter + ".png'/>");
+
 })

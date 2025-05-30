@@ -39,5 +39,5 @@ while(index < 5) //cycles through the myTransport array and prints out every ele
 }
 document.writeln("</br></br>My Main Ride: </br>", "Make: " + myMainRide.make + "</br>", 
 "Model: " + myMainRide.model + "</br>", "Color: " + myMainRide.color + "</br>",
-"Year: " + myMainRide.year + "</br>", "Age: " + myMainRide.age() + " years" + "</br>");
+"Year: " + myMainRide.year + "</br>", "Age: " + myMainRide.age() + " years" + "</br></br>");
 

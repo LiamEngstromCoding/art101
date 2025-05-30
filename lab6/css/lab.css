@@ -7,3 +7,14 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.hondaCivic
+{
+    margin: 10px;
+    max-width: 50%;
+} 
+
+#hondaCivic
+{
+  width: 500px;
+}
